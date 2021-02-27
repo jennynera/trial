@@ -6,15 +6,36 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_hl"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_Women"
+            android:icon="@drawable/ic_dress"
+            android:title="Women" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_Men"
+            android:icon="@drawable/ic_polo_shirt"
+            android:title="Men" />
+        <item
+            android:id="@+id/nav_kids"
+            android:icon="@drawable/ic_baby_body"
+            android:title="Kids" />
+
     </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_wishlist"
+                android:icon="@drawable/ic_wishlist"
+                android:title="Wishlist" />
+            <item
+                android:id="@+id/nav_orders"
+                android:icon="@drawable/ic_order"
+                android:title="Orders" />
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Account" />
+        </menu>
+    </item>
 </menu>

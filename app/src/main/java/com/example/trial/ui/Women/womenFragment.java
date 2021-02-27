@@ -1,4 +1,5 @@
-package com.example.trial.ui.slideshow;
+package com.example.trial.ui.Women;
+
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +15,19 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.trial.R;
 
-public class SlideshowFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
+
+public class womenFragment extends Fragment {
+
+    private womenViewModel womenViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        slideshowViewModel =
-                ViewModelProviders.of(this).get(SlideshowViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
-        final TextView textView = root.findViewById(R.id.text_slideshow);
-        slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        womenViewModel =
+                ViewModelProviders.of(this).get(womenViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_women, container, false);
+        final TextView textView = root.findViewById(R.id.text_women);
+        womenViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

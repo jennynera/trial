@@ -30,14 +30,37 @@
     </fragment>
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.trial.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_Women"
+        android:name="com.example.trial.ui.Women.womenFragment"
+        android:label="Women"
+        tools:layout="@layout/fragment_women" />
+    <fragment
+        android:id="@+id/nav_Men"
+        android:name="com.example.trial.ui.Men.MenFragment"
+        android:label="Men"
+        tools:layout="@layout/fragment_men" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.trial.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_kids"
+        android:name="com.example.trial.ui.Kids.KidsFragment"
+        android:label="Kids"
+        tools:layout="@layout/kids_fragment" />
+    <fragment
+        android:id="@+id/nav_wishlist"
+        android:name="com.example.trial.ui.wishlist.wishlistFragment"
+        android:label="wishlist"
+        tools:layout="@layout/wishlist_fragment" />
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.trial.ui.orders.ordersFragment"
+        android:label="orders"
+        tools:layout="@layout/orders_fragment" />
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.example.trial.ui.account.accountFragment"
+        android:label="account"
+        tools:layout="@layout/account_fragment" />
+
+
+
 </navigation>
